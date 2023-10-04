@@ -10,7 +10,7 @@ describe("tests linearSearch", () => {
   });
 
   test("linearSearch(4, [1, 2, 3]) === undefined", () => {
-    expect(linearSearch(3, [1, 2, 3])).toBe(undefined);
+    expect(linearSearch(4, [1, 2, 3])).toBe(undefined);
   });
 });
 
